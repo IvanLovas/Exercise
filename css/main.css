@@ -101,6 +101,8 @@ h2 {
   .section2 table tbody td:first-child {
     background: #f0f0f0;
     font-weight: bold; }
+.section2 .button {
+  display: none; }
 
 footer {
   padding: 1em 20%;
@@ -125,6 +127,8 @@ footer {
     padding: 1em; }
 
 @media screen and (max-width: 1250px) {
+  header h1 {
+    width: 90%; }
   header nav {
     width: 98%; }
     header nav:before, header nav:after {
@@ -149,5 +153,41 @@ footer {
       float: none;
       display: block;
       margin: 0 auto; } }
+@media screen and (max-width: 700px) {
+  header {
+    background: #000; }
+    header nav ul {
+      width: 100%;
+      float: none; }
+      header nav ul li {
+        display: block;
+        width: 100%;
+        padding: 1em; }
+    header h1 {
+      margin: 8% auto 0; }
+    header h2 {
+      margin-bottom: 8%; }
+
+  .section1 .col {
+    width: 100%; }
+    .section1 .col h3 {
+      margin-bottom: 3em; }
+    .section1 .col .button {
+      padding: 1.7em 4em; }
+
+  .section2 table {
+    display: none; }
+  .section2 .button {
+    display: block;
+    width: 15em;
+    padding: 1.7em 4em;
+    text-decoration: none;
+    background: #ff3720;
+    color: white;
+    font-size: .9em;
+    text-transform: uppercase;
+    margin: 0 auto; }
+    .section2 .button:hover {
+      background: #000; } }
 
 /*# sourceMappingURL=main.css.map */
