@@ -5,7 +5,10 @@
 
 header {
 	background: url('../slike/background.jpg');
+	background-size: cover;
 	padding-top: 25px;
+	text-align: center;
+	@include clearfix;
 	nav {
 		width: 60%;
 		margin: 0 auto;
@@ -47,5 +50,22 @@ header {
 		}
 	}
 
+	h1 {
+		margin: 15% auto 0;
+		color: white;
+		font-weight: normal;
+		width: 40%;
+		border-bottom: 1px solid red;
+		font-size: 2.2em;
+	}
+
+	h2 {
+		color: white;
+		font-weight: normal;
+		font-size: 1.2em;
+		margin-bottom: 20%;	
+	}
 
 }
+
+

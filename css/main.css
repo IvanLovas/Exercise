@@ -7,7 +7,14 @@
 
 header {
   background: url("../slike/background.jpg");
-  padding-top: 25px; }
+  background-size: cover;
+  padding-top: 25px;
+  text-align: center; }
+  header:before, header:after {
+    content: "";
+    display: table; }
+  header:after {
+    clear: both; }
   header nav {
     width: 60%;
     margin: 0 auto;
@@ -33,5 +40,17 @@ header {
     font-weight: bold; }
     header .logo span {
       color: #ff3720; }
+  header h1 {
+    margin: 15% auto 0;
+    color: white;
+    font-weight: normal;
+    width: 40%;
+    border-bottom: 1px solid red;
+    font-size: 2.2em; }
+  header h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 1.2em;
+    margin-bottom: 20%; }
 
 /*# sourceMappingURL=main.css.map */
