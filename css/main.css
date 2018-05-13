@@ -53,4 +53,25 @@ header {
     font-size: 1.2em;
     margin-bottom: 20%; }
 
+.section1 {
+  text-align: center;
+  padding: 100px; }
+  .section1 h2 {
+    text-transform: uppercase;
+    padding-bottom: 2em; }
+  .section1 .col {
+    display: inline-block;
+    width: 20%; }
+    .section1 .col img {
+      width: 80%; }
+    .section1 .col h3 {
+      font-size: 1em;
+      font-weight: normal; }
+    .section1 .col .button {
+      text-decoration: none;
+      background: #ff3720;
+      color: white;
+      font-size: .9em;
+      padding: .2em 1.4em; }
+
 /*# sourceMappingURL=main.css.map */
