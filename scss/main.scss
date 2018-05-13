@@ -68,14 +68,12 @@ header {
 
 }
 
-.section1 {
+section {
 	text-align: center;
 	padding: 100px;
-
-	h2 {
-		text-transform: uppercase;
-		padding-bottom: 2em;
-	}
+}
+.section1 {
+		background: $grey_background;
 
 	.col {
 		display: inline-block;
@@ -100,5 +98,52 @@ header {
 		}
 	}
 }
+
+h2 {
+		text-transform: uppercase;
+		padding-bottom: 2em;
+}
+
+.section2 {
+	table {
+		width: 60%;
+		margin: 0 auto; 
+		border-collapse: collapse;
+
+		thead {
+			background: $main_red;
+
+			th {
+				color: white;
+			}
+
+			th:first-child {
+				background: $red_dark;
+			}
+		}
+
+		th, td {
+			padding: .8em;
+		}
+
+		tbody {
+
+		tr {
+			border-bottom: 1px solid $main_text_color;
+			
+			&:hover {
+				background: $grey_background;
+			}
+		}
+
+
+		td:first-child {
+			background: $grey_background;
+			font-weight: bold;
+		}
+	}
+	}
+}
+
 
 

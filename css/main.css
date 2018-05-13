@@ -53,12 +53,12 @@ header {
     font-size: 1.2em;
     margin-bottom: 20%; }
 
-.section1 {
+section {
   text-align: center;
   padding: 100px; }
-  .section1 h2 {
-    text-transform: uppercase;
-    padding-bottom: 2em; }
+
+.section1 {
+  background: #f0f0f0; }
   .section1 .col {
     display: inline-block;
     width: 20%; }
@@ -73,5 +73,29 @@ header {
       color: white;
       font-size: .9em;
       padding: .2em 1.4em; }
+
+h2 {
+  text-transform: uppercase;
+  padding-bottom: 2em; }
+
+.section2 table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse; }
+  .section2 table thead {
+    background: #ff3720; }
+    .section2 table thead th {
+      color: white; }
+    .section2 table thead th:first-child {
+      background: #e42b15; }
+  .section2 table th, .section2 table td {
+    padding: .8em; }
+  .section2 table tbody tr {
+    border-bottom: 1px solid #797979; }
+    .section2 table tbody tr:hover {
+      background: #f0f0f0; }
+  .section2 table tbody td:first-child {
+    background: #f0f0f0;
+    font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
