@@ -61,7 +61,8 @@ section {
   background: #f0f0f0; }
   .section1 .col {
     display: inline-block;
-    width: 20%; }
+    width: 20%;
+    padding-top: 2em; }
     .section1 .col img {
       width: 80%; }
     .section1 .col h3 {
@@ -122,5 +123,31 @@ footer {
   footer iframe {
     float: right;
     padding: 1em; }
+
+@media screen and (max-width: 1250px) {
+  header nav {
+    width: 98%; }
+    header nav:before, header nav:after {
+      content: "";
+      display: table; }
+    header nav:after {
+      clear: both; }
+  header .logo {
+    float: left; }
+
+  .section1 .col {
+    width: 45%; }
+    .section1 .col .button {
+      padding: .2em 3em; }
+
+  footer {
+    text-align: center; }
+    footer .info {
+      float: none;
+      display: block; }
+    footer iframe {
+      float: none;
+      display: block;
+      margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */

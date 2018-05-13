@@ -78,7 +78,7 @@ section {
 	.col {
 		display: inline-block;
 		width: 20%;
-
+		padding-top: 2em;
 
 		img {
 			width: 80%;
@@ -174,9 +174,46 @@ footer {
 	iframe {
 		float: right;
 		padding: 1em;
-	
+
 	}
 	
+}
+
+@media screen and (max-width: 1250px) {
+	header {
+		nav {
+			width: 98%;
+			@include clearfix;
+		}
+
+		.logo {
+			float: left;
+		}	
+	}
+
+	.section1 {
+		.col {
+			width: 45%;
+
+			.button {
+				padding: .2em 3em;
+		}
+	}
+}
+
+footer {
+	text-align: center;
+
+	.info {
+		float: none;
+		display: block;
+	}
+	iframe {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+}
 }
 
 
