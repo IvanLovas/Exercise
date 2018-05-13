@@ -95,6 +95,11 @@ section {
 			color: white;
 			font-size: .9em;
 			padding: .2em 1.4em;
+			text-transform: uppercase;
+
+			&:hover {
+				background: #000;
+			}
 		}
 	}
 }
@@ -145,5 +150,33 @@ h2 {
 	}
 }
 
+footer {
+	padding: 1em 20%;
+	background-color: #000;
+	@include clearfix;
+
+	.logo {
+		font-size: 1.5em;
+		border-bottom: 1px solid red;
+
+		span {
+			color: red;
+		}
+	}
+
+	.info {	
+		padding: 1em;
+		font-style: italic;
+		float: left;
+		color: white;
+	}
+	
+	iframe {
+		float: right;
+		padding: 1em;
+	
+	}
+	
+}
 
 
