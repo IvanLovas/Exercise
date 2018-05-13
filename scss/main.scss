@@ -3,3 +3,49 @@
 
 @include main;
 
+header {
+	background: url('../slike/background.jpg');
+	padding-top: 25px;
+	nav {
+		width: 60%;
+		margin: 0 auto;
+		padding: .5em;
+		background-color: white;
+		
+
+		ul {
+			display: inline-block;
+			list-style: none;
+			float: right;
+			padding-top: 1em;
+
+			li {
+				display: inline-block;
+
+				a {
+					text-decoration: none;
+					text-transform: uppercase;
+					padding: 0 10px;
+					font-size: .9em;
+
+					&:hover {
+						color: $main_red;
+					}
+				}
+
+			}
+		}
+	}
+
+	.logo {
+		display: inline-block;
+		font-size: 2em;
+		font-weight: bold;
+
+		span {
+			color: $main_red;
+		}
+	}
+
+
+}

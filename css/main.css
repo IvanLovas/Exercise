@@ -5,4 +5,33 @@
   font-family: "Open Sans", sans-serif;
   color: #797979; }
 
+header {
+  background: url("../slike/background.jpg");
+  padding-top: 25px; }
+  header nav {
+    width: 60%;
+    margin: 0 auto;
+    padding: .5em;
+    background-color: white; }
+    header nav ul {
+      display: inline-block;
+      list-style: none;
+      float: right;
+      padding-top: 1em; }
+      header nav ul li {
+        display: inline-block; }
+        header nav ul li a {
+          text-decoration: none;
+          text-transform: uppercase;
+          padding: 0 10px;
+          font-size: .9em; }
+          header nav ul li a:hover {
+            color: #ff3720; }
+  header .logo {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold; }
+    header .logo span {
+      color: #ff3720; }
+
 /*# sourceMappingURL=main.css.map */
